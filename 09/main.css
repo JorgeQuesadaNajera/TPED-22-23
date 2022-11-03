@@ -1,0 +1,70 @@
+header {
+    background-color: lightslategrey;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color:gainsboro; 
+
+}
+
+h1 {
+    color:azure;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    
+}
+
+
+img {
+    width: 25%;
+    height:200px;
+    margin: 50px;
+     
+}
+
+.img1{
+    filter:invert(1);
+}
+
+.img2{
+    filter: opacity(0.5);
+}
+
+.img3{
+    filter: sepia(50%);
+}
+
+.img4{
+    filter: blur(10px);
+}
+
+.img5{
+    filter: hue-rotate(240deg);
+}
+
+.img6{
+    filter: contrast(2);
+}
+
+.img7{
+    filter: drop-shadow(16px 16px 20px blue);
+}
+
+.img8{
+    filter:brightness(60%);
+}
+
+.img9{
+    filter: blur(1px);
+}
+
+a:hover img {
+    filter:none;
+}
