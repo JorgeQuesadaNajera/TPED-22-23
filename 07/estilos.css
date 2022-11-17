@@ -10,10 +10,31 @@ h1 {
     color: #464646;
 }
 
+.subtitulo {
+    margin-bottom: 100px;
+}
+
+.texto1 {
+    margin-bottom: 100px;
+}
+
+.texto2 {
+    margin-top: auto;
+    margin-bottom: 200px;
+}
+
+.lista1 {
+    margin-bottom: 200px;
+}
+
+.lista2 {
+    margin-bottom: 200px;
+}
+
 h2 {
-    
+
     font-size: 13pt;
-    text-align:left;
+    text-align: left;
     font-weight: lighter;
     color: #A9A9A9;
     line-height: 2;
@@ -23,7 +44,7 @@ a:link {
     color: #A9A9A9;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
 p {
     font-size: 20pt;
@@ -32,9 +53,9 @@ p {
 
 }
 
-div { 
+div {
     margin-left: 500px;
-    margin-top:400px;
+    margin-top: 400px;
     margin-bottom: 300px;
 
 }
@@ -43,28 +64,32 @@ footer {
     background-color: black;
     color: whitesmoke;
     width: 1920px;
-  }
-  ul {
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+ul {
     list-style: none;
     font-size: 38pt;
     margin: 500px;
     line-height: 2.2;
     color: whitesmoke;
     font-weight: lighter;
-  }
+}
 
-  a:hover {
-      color: black;
-      text-decoration: underline;
-  }
 
-  .tachado:hover {
-    
-      text-decoration: line-through;
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
-  }
+.tachado:hover {
 
-  .center {
+    text-decoration: line-through;
+
+}
+
+.center {
     margin-left: 500px;
-  }
-
+}
