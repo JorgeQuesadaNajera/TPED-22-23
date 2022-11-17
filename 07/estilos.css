@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-weight: lighter;
+    text-align: left;
+    font-size: 38pt;
+    color: #464646;
+}
+
+h2 {
+    
+    font-size: 13pt;
+    text-align:left;
+    font-weight: lighter;
+    color: #A9A9A9;
+    line-height: 2;
+}
+
+a:link {
+    color: #A9A9A9;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+p {
+    font-size: 20pt;
+    font-weight: lighter;
+    color: #464646;
+
+}
+
+div { 
+    margin-left: 500px;
+    margin-top:400px;
+    margin-bottom: 300px;
+
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    width: 1920px;
+  }
+  ul {
+    list-style: none;
+    font-size: 38pt;
+    margin: 500px;
+    line-height: 2.2;
+    color: whitesmoke;
+    font-weight: lighter;
+  }
+
+  a:hover {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .tachado:hover {
+    
+      text-decoration: line-through;
+
+  }
+
+  .center {
+    margin-left: 500px;
+  }
+
