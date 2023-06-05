@@ -1,0 +1,185 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+img {
+
+    width: 100%;
+    padding: 0;
+}
+
+#titulo {
+
+    font-size: 10vh;
+    font-family: bely, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+}
+
+.footer_img {
+
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.footer_img:hover {
+
+    filter: grayscale(100%);
+    transition: 1s;
+
+}
+
+#volver {
+
+    font-size: 2vh;
+    font-family: bely, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+
+    font-size: 20px;
+    font-family: bely, serif;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+}
+
+.horizontal {
+
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.contenedor_img {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.columna {
+
+    flex: 33.333333333%;
+    padding: 5px;
+    margin: 0;
+}
+
+.columna img {
+    margin-top: 5px;
+}
+
+
+
+#horizontal1 {
+
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+#horizontal1:hover {
+
+    filter: none;
+}
+
+#hormigas1 {
+
+    margin-bottom: 200px;
+}
+
+#hormigas2 {
+
+    margin-bottom: 45px;
+}
+
+#luna {
+
+    margin-bottom: 200px;
+}
+
+#persona {
+    height: 75%;
+    width: auto;
+    margin: 0 0 200px 50px;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .columna {
+        flex: 50%;
+
+    }
+
+    #titulo {
+        font-size: 5vh;
+    }
+
+    p {
+        font-size: 1vh;
+        font-family: bely, serif;
+        color: beige;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 600px) {
+    .columna {
+        flex: 100%;
+    }
+
+    #titulo {
+        font-size: 3.5vh;
+    }
+
+    p {
+        font-size: 8px;
+        font-family: bely, serif;
+        color: beige;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
