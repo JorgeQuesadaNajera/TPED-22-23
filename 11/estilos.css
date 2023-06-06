@@ -52,6 +52,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-decoration: none;
 
 }
 
@@ -63,7 +64,7 @@ a:link {
     text-decoration: none;
 }
 
-p {
+.text {
 
     font-size: 20px;
     font-family: bely, serif;
@@ -118,65 +119,264 @@ p {
     filter: none;
 }
 
-#hormigas1 {
 
-    margin-bottom: 200px;
-}
-
-#hormigas2 {
-
-    margin-bottom: 45px;
-}
-
-#luna {
-
-    margin-bottom: 200px;
-}
-
-#persona {
+#img-8 {
     height: 75%;
     width: auto;
     margin: 0 0 200px 50px;
 }
 
 
-.ightbox {
+#img-15{
+    margin-bottom: 200px;
+}
+
+#img-16 {
+
+    margin-bottom: 200px;
+}
+
+#img-19 {
+
+    margin-bottom: 45px;
+}
+
+
+#img-1:hover{
+    filter: brightness(200%);
+    transition: 2s;
+}
+
+#img-3:hover{
+    filter: saturate(600%);
+}
+
+#img-4:hover{
+    filter: brightness(150%);
+}
+
+#img-5:hover{
+    filter: sepia(100%);
+}
+
+#img-6:hover{
+    filter: grayscale(1);
+}
+
+#img-7:hover{
+    border-radius: 80%;
+    opacity: 50%;
+    transition: 1s;
+}
+
+#img-8:hover{
+    filter: blur(5px);
+}
+
+#img-9:hover{
+    filter: sepia(100%);
+}
+
+#img-11:hover{
+filter: invert(1);
+transition: 3s;
+}
+
+#img-12:hover{
+    filter: drop-shadow(4px 4px 4px rgb(255, 234, 112));
+}
+
+#img-13:hover{
+    filter: contrast(400%);
+    border-radius: 50%;
+    transition: 2s;
+}
+
+#img-14:hover{
+    filter: saturate(200%);
+}
+
+#img-15:hover{
+    opacity: 0;
+    transition: 1s;
+}
+
+#img-16:hover{
+    opacity: 0;
+}
+
+
+#img-17:hover{
+    width: 90%;
+    transition: 1s;
+}
+
+#img-18:hover{
+    opacity: 0;
+    transition: 1s;
+}
+
+#img-19:hover{
+    filter: drop-shadow(4px 4px 4px rgb(255, 234, 112));
+}
+
+#img-20:hover{
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+
+}
+
+.light-box{
     position: fixed;
     top:0;
     left:0;
-    background: rgba (0,0,0,.5);
+    background: rgba(255, 255, 255, 0.9);
+
     transition: transform .3s ease-in-out;
     width: 100%;
-    height: 100vh;
-    z-index: 1000;
+    height: 100%;
+    z-index:1000;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0);
+    transform:scale(0);
+    
 }
 
-.lightbox img {
-    width:75vw;
-    height: 70vh;
+.light-box img{
+    width:auto;
+    height: 50%;
 }
 
-.lightbox:target {
+.light-box:target{
     transform: scale(1);
 }
 
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    margin: 0;
+    opacity: 100%;
+    
+}
 
-@media (max-width: 800px) {
+.close:hover{
+    background-color: red;
+}
+
+
+.X{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.next{
+    display: block;
+    position: absolute;
+    background-color: black ;
+    color: white;
+    height: 30px;
+    width: 30px;
+    top: center;
+    left: 100px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 100px;
+
+}
+
+.next2{
+    display: block;
+    position: absolute;
+    background-color: black ;
+    color: white;
+    height: 30px;
+    width: 30px;
+    top: center;
+    right: 100px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 100px;
+
+}
+
+.next:hover{
+    color: wheat;
+}
+
+.next2:hover{
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px) {
+
+    .next{
+        bottom: 40px;
+        
+    }
+
+    .next2{
+        bottom: 40px;
+    }
+
+    .close{
+        right: 10px;
+        top: 50px;
+    }
+
+    .light-box img{
+        
+       margin-bottom: 200px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1000px) {
     .columna {
         flex: 50%;
 
     }
 
     #titulo {
-        font-size: 5vh;
+        font-size: 8vh;
     }
 
-    p {
-        font-size: 1vh;
+    .text {
+        font-size: 2vh;
         font-family: bely, serif;
         color: beige;
         position: absolute;
@@ -184,7 +384,14 @@ p {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .light-box img{
+        
+        margin-bottom: 200px;
+    }
 }
+
+
 
 @media (max-width: 600px) {
     .columna {
@@ -192,11 +399,11 @@ p {
     }
 
     #titulo {
-        font-size: 3.5vh;
+        font-size: 5vh;
     }
 
-    p {
-        font-size: 8px;
+    .text {
+        font-size: 1.5vh;
         font-family: bely, serif;
         color: beige;
         position: absolute;
@@ -204,4 +411,6 @@ p {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    
 }
