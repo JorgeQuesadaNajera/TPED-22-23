@@ -428,6 +428,10 @@ article {
 	margin-top: 20px;
 }
 
+.ejercicios h2 a{
+	text-decoration: none;
+}
+
 
 
 /* ESTILOS DE PC */
